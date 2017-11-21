@@ -1084,7 +1084,7 @@ class dBase:
         try:
             self.database = shelve.open(self.Filename)
         except:
-            print('No database was has been opened. Program terminated?')
+            print('No database is opened. Program terminated?')
 
     def sync(self):
         self.database.sync()
